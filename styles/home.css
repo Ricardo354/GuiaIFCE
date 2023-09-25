@@ -1,0 +1,22 @@
+
+.title {
+    padding-bottom: 5rem;
+}
+
+.title h1 {
+    text-align: center;
+    color: white;
+}
+
+.semnome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-items: flex-end;
+    gap: 1rem;
+}
+
+.semnome iframe {
+    border-radius: 8px;
+}

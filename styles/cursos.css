@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.curso {
+    background-image: url("../imagens/biblioteca.png");
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 8px;
+    width: clamp(300px, 80%, 1000px);
+    height: 100px;
+    transition: 100ms;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curso p {
+    font-size: clamp(20px, 6rem, 40px);
+    font-weight: bold;
+    opacity: 0;
+    transition: 100ms;
+    color: white;
+}
+
+.curso:hover {
+    background-size: 110%;
+    background-blend-mode: darken;
+}
+
+.curso:hover p {
+    opacity: 1;
+}
